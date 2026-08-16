@@ -1,0 +1,14 @@
+{
+  "name": "werewolf-village",
+  "private": true,
+  "version": "0.1.0",
+  "description": "《人狼村》多人連線遊戲：權威伺服器 + 瀏覽器客戶端",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node tests/run_all.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
